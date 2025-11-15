@@ -1,0 +1,5 @@
+import { getDb } from './index.js';
+export async function getStudentAccommodations() {
+  const db = await getDb();
+  return [];
+}
